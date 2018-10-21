@@ -1,0 +1,7 @@
+Command to compile 
+
+javac -cp contest.jar player54.java  InitializePopulation.java Utility.java DifferentialEvolution.java
+
+Command to build Jar 
+
+jar cmf MainClass.txt submission.jar player54.class InitializePopulation.class Utility.class DifferentialEvolution.class

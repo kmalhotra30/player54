@@ -1,0 +1,7 @@
+Command to compile 
+
+javac -cp contest.jar player54.java children.java Crossover.java ParentSelection.java InitializePopulation.java SurvivorSelection.java Mutation.java Utility.java
+
+Command to build Jar 
+
+jar cmf MainClass.txt submission.jar player54.class children.class Crossover.class ParentSelection.class  SurvivorSelection.class InitializePopulation.class Mutation.class Utility.class
