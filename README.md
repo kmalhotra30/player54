@@ -26,6 +26,8 @@ This module consists of 2 submodules / sub folders :
 -   DE - This contains the code for Differential Evolution.
     
 
+### Notes
+
 All subfolders/sub modules contain a text file `commands.txt` which comprises of commands to compile the java files and to build jars.
 
 The java specifications used for programming are as follows :-
