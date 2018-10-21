@@ -1,0 +1,6 @@
+javac -cp contest.jar player54.java Individual.java children.java InitializePopulation.java Utility.java DifferentialEvolution.java SortByFitness.java
+
+
+jar cmf MainClass.txt submission.jar player54.class InitializePopulation.class Utility.class DifferentialEvolution.class Individual.class SortByFitness.class
+
+java -jar testrun.jar  -submission=player54 -evaluation=BentCigarFunction -seed=43433
